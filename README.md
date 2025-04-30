@@ -211,7 +211,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants :
 1. **Cloner le dépôt :**
 
    ```shell
-   git clone https://github.com/DataScientest/Project-GitOps.git](https://github.com/DataScientest/Project-datascientest-eks-argo-GitOps_FR.git
+   git clone https://github.com/DataScientest/Project-datascientest-eks-argo-GitOps_FR.git
    cd Livrables/Jenkins-Server-TF/
    ```
 
@@ -386,11 +386,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants :
 
      2. Faites défiler jusqu'à la section **SonarQube Scanner**.
 
-     3. Cliquez sur 
-
-        Add SonarQube Scanner
-
-         :
+     3. Cliquez sur "Add SonarQube Scanner" :
 
         - Donnez un nom (par exemple, `SonarQubeScanner`).
         - Cochez **Install automatically** pour installer automatiquement le scanner.
@@ -405,7 +401,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants :
 
 ------
 
-### **Étape 2 : Créer un cluster EKS avec le Pipeline Jenkins **
+### **Étape 2 : Créer un cluster EKS avec le Pipeline Jenkins**
 
 1. **Créer un nouveau pipeline Jenkins :**
 
@@ -933,4 +929,4 @@ Cette commande planifie une sauvegarde quotidienne à 2 heures du matin.
 
 ## **Conclusion**
 
-En combinant Jenkins, ArgoCD, AWS EKS, Prometheus et Grafana, vous construisez une pipeline robuste qui automatise le déploiement, les analyses de sécurité et la surveillance de vos applications. Cette solution embrasse les pratiques DevOps, permettant à vos équipes de se concentrer sur la valeur métier tout en assurant sécurité et fiabilité .**Velero** avec un bucket **S3**, permettrons la mise en place d'une solution robuste pour sauvegarder et restaurer les données critiques d'un cluster Kubernetes. Cette configuration garantit que même en cas de panne ou de suppression accidentelle, vous pouvez récupérer vos données et votre infrastructure rapidement
+En combinant Jenkins, ArgoCD, AWS EKS, Prometheus et Grafana, vous construisez une pipeline robuste qui automatise le déploiement, les analyses de sécurité et la surveillance de vos applications. Cette solution embrasse les pratiques DevOps, permettant à vos équipes de se concentrer sur la valeur métier tout en assurant sécurité et fiabilité .**Velero** avec un bucket **S3**, permettrons la mise en place d'une solution robuste pour sauvegarder et restaurer les données critiques d'un cluster Kubernetes. Cette configuration garantit que même en cas de panne ou de suppression accidentelle, vous pouvez récupérer vos données et votre infrastructure rapidement.
